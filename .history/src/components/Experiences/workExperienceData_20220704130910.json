@@ -1,0 +1,13 @@
+{
+    "place": "CACI International",
+    "title": "Software Engineer II",
+    "location": "Sterling, VA",
+    "content": 
+    [ 
+        "Appointed to be part of a tiger team for a technology stack refresh whose goal is to move from a monolithic code base to a Microservices architecture",
+        "Designed a custom leaflet plugin that  implemented a geospatial feature that added graphic mapping and customization",
+        "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
+        "Creative Direction, User Experience, Visual Design, Project Management, Team Leading"
+    ],
+    "techStack": ["angularJS", "postgres", "docker", "puppet", "Git"]
+}

@@ -1,0 +1,28 @@
+{
+    "CACI International": { 
+        "title": "Software Engineer II",
+        "location": "Sterling, VA",
+        "content": 
+        [ 
+            "Appointed to be part of a tiger team for a technology stack refresh whose goal is to move from a monolithic code base to a Microservices architecture",
+            "Modified a custom leaflet plugin that  implemented a geospatial feature that added graphic mapping and customization",
+            "Led a team of engineers to develop a logistics tracking system that will streamline the process to request, purchase, and track requisition order",
+            "Created documentation for the code base and a guide to setup the development environment that is actively used by many developers",
+            "Review daily bugs by recreating deficits, narrowing down issues in the codebase, and fixing code shared by three teams"
+        ],
+        "techStack": ["angularJS", "postgres", "docker", "puppet", "Jenkins" ,"git"]
+    },
+    "Textron Systems": { 
+        "title": "Software Engineer II",
+        "location": "Sterling, VA",
+        "content": 
+        [ 
+            "Upgraded the SeeMed project to the newest version to Angular and added the ability to download from an S3 bucket containing brain imagery",
+            "Refactored the User Interface of the Textron’s newest geospatial web application written in TypeScript and Angular, as well as created the authentication layer in in JavaScript",
+            "Created a serverless geospatial image conversion application using AWS’s Lambda, Route53, Elastic Container Services, SQS, and S3 buckets, and developed a caching system using Node.js",
+            "Won 1st place in Textron’s corporate hackathon, GEOHACK 2017, for developing a web and ALEXA application that displayed how safe an area is for travelers using georeferenced crime data, Twitter sentiment data, and Python"
+        ],
+        "techStack": ["Angular", "NodeJS", "MongoDB", "Azure" ,"git"],
+        "aws": ["Lambda", "Route53", "S3", ""]
+    }
+}
