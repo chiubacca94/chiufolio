@@ -1,0 +1,10 @@
+.bullets {
+    text-align: left;
+    list-style-type: disc;
+}
+
+.experience{ 
+    position: relative;
+    min-height: calc(100% - 100px);
+    height: -webkit-calc(100% - 100px);
+}

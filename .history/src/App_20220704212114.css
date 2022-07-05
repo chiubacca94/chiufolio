@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  min-height: calc(100vh-132vh);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}

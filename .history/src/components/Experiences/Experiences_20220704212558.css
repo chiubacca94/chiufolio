@@ -1,0 +1,8 @@
+.bullets {
+    text-align: left;
+    list-style-type: disc;
+}
+
+.experience{ 
+    height: calc(100%-200px);
+}

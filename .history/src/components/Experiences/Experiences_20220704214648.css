@@ -1,0 +1,9 @@
+.bullets {
+    text-align: left;
+    list-style-type: disc;
+}
+
+.experience{ 
+    position: fixed;
+    min-height: calc(100% - 100px)
+}
