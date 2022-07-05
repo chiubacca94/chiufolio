@@ -17,8 +17,7 @@ export default function Home() {
                 }}
                 />
             </div>
-            <Button variant='contained' href="./BChiu_Resume.pdf" target="_blank" download>Download Resume</Button>
-            
+            <Button variant='contained' href="./BChiu_Resume.pdf" download="./BChiu_Resume.pdf">Download Resume</Button>
             
         </section>
         <section className='skills'>

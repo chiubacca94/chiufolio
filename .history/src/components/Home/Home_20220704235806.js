@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
 import Typewriter from 'typewriter-effect';
+import Link from '@material-ui/core/Link';
 import './Home.css'
 
 export default function Home() {
@@ -17,8 +18,8 @@ export default function Home() {
                 }}
                 />
             </div>
-            <Button variant='contained' href="./BChiu_Resume.pdf" target="_blank" download>Download Resume</Button>
-            
+            <Link to="/files/myfile.pdf" target="_blank" download>Download</Link>
+            <Button variant='contained' href="./BChiu_Resume.pdf" download="./BChiu_Resume.pdf">Download Resume</Button>
             
         </section>
         <section className='skills'>
