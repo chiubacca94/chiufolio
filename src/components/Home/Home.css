@@ -2,7 +2,6 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    /* color: #3e497a; */
     color: white;
   }
   
@@ -14,10 +13,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background-color: #21325e; */
     color: black;
   }
   
+    .scroller {
+      height: 100%;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+  }
+
+  .scroller section {
+      scroll-snap-align: start;
+  }
+
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
@@ -50,7 +58,7 @@
 
   .skills section {
     scroll-snap-align: start;
-}
+  }
   
   .skills h1 {
     color: #3e497a;
@@ -60,10 +68,19 @@
     list-style: none;
     width: 60%;
     color: black;
+    margin-top: 0px;
   }
   
   .list span {
     font-size: 20px;
+  }
+
+  .item-title {
+    color: #3c005a;
+  }
+
+  .item {
+    padding-bottom: 20px;
   }
   
   @media only screen and (max-width: 905px) {
