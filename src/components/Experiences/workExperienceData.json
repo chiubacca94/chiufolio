@@ -21,6 +21,7 @@
         [ 
             "Upgraded the SeeMed project to the newest version to Angular and added the ability to download from an S3 bucket containing brain imagery",
             "Refactored the User Interface of the Textron’s newest geospatial web application written in TypeScript and Angular, as well as created the authentication layer in in JavaScript",
+            "Implemented an Big Data API using Flask, Kafka, Graylog, and Docker to process metadata and log messages",
             "Created a serverless geospatial image conversion application using AWS’s Lambda, Route53, Elastic Container Services, SQS, and S3 buckets, and developed a caching system using Node.js",
             "Won 1st place in Textron’s corporate hackathon, GEOHACK 2017, for developing a web and ALEXA application that displayed how safe an area is for travelers using georeferenced crime data, Twitter sentiment data, and Python"
         ],
