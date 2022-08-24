@@ -16,7 +16,7 @@ export default class Home extends Component {
                     <div className='prompt'> I am a
                     <Typewriter
                         options={{
-                            strings: ['Front-End Developer', 'Back-End Developer', 'Full Stack Developer', 'Software Engineer', 'Change Typewriter Speed'],
+                            strings: ['Front-End Developer', 'Back-End Developer', 'Full Stack Developer', 'Software Engineer', 'DevOps Engineer'],
                             autoStart: true,
                             loop: true,
                             delay: 90
