@@ -16,15 +16,21 @@ export default class Home extends Component {
                     <div className='prompt'> I am a
                     <Typewriter
                         options={{
-                            strings: ['Front-End Developer', 'Back-End Developer', 'Full Stack Developer', 'Software Engineer'],
+                            strings: ['Front-End Developer', 'Back-End Developer', 'Full Stack Developer', 'Software Engineer', 'DevOps Engineer'],
                             autoStart: true,
                             loop: true,
+                            delay: 90
                         }}
                         />
                     </div>
-                    {/* <Button variant='contained' href="https://github.com/brittanychiucode/chiufolio/raw/master/public/BChiu_Resume.pdf" target="_blank" download>Download Resume</Button> */}
-                    
-                    
+                    <Button variant='contained' href="https://github.com/brittanychiucode/chiufolio/raw/master/public/BChiu_Resume.pdf" target="_blank" download>Download Resume</Button>
+                </section>
+                <section className='certifications'>
+                    <h1>Certifications</h1>
+                    <div className='certifications-images'>
+                        <a href="https://www.credly.com/badges/32db247c-c9f6-49c8-9d4a-a45f2b1f4d6d/public_url" target="_blank"><img style={{ paddingRight: '30px' }} src="/comptia-security-ce-certification.png"></img></a>
+                        <a href="https://www.credly.com/badges/ffa69574-4801-4b4b-ba7f-efbd9763b62d/public_url" target="_blank"><img src="/aws-certified-developer-associate.png"></img></a>
+                    </div>
                 </section>
                 <section className='skills'>
                     <h1>Skills</h1>

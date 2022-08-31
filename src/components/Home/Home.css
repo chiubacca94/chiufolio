@@ -46,6 +46,25 @@
     color: white;
   }
   
+  .certifications {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    scroll-snap-type: y mandatory;
+    padding-bottom: 100px;
+  }
+
+  .certifications h1 {
+    color: #3e497a;
+  }
+
+  .certifications section {
+    scroll-snap-align: start;
+  }
+
   .skills {
     font-size: 20px;
     width: 100%;
