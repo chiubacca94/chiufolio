@@ -11,7 +11,7 @@
             "Upgraded the SpringBoot application's auditlog package to send log data to enterprise streaming platforms to comply with company technology standards  ",
             "Oversaw the transfer of CNAME ownership from enterprise service accounts to team accounts to fit scope of compliance and tracking"
         ],
-        "techStack": ["Angular", "SpringBoot", "AWS", "Docker", "Jenkins" ,"git", "Python"]
+        "techStack": ["Angular", "SpringBoot", "AWS", "Docker", "Jenkins" ,"Git", "Python", "Xpress"]
     },
     "CACI International": { 
         "title": "Software Engineer II",
