@@ -16,7 +16,7 @@ export default function Experiences() {
                 <VerticalTimelineElement 
                     className='vertical-timeline-element--education' 
                     // contentStyle={{background: '#3c005a', colo: '#fff'}}
-                    date='2021-Current'
+                    date='2022-Current'
                     iconStyle={{background: '#3c005a', color: '#fff'}}
                     icon={<WorkIcon />}>
                     <div className='jobHeader'>
@@ -44,6 +44,23 @@ export default function Experiences() {
                         <p>{Object.values(workData)[1].title}</p>
                         <ol className='bullets'>
                          {Object.values(workData)[1].content.map((i)=> <li key={i}>{i}</li>)}
+                        </ol>
+                    </div>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement 
+                    className='vertical-timeline-element--education' 
+                    // contentStyle={{background: '#3c005a', colo: '#fff'}}
+                    date='2017-2020'
+                    iconStyle={{background: '#3c005a', color: '#fff'}}
+                    icon={<WorkIcon />}>
+                    <div className='jobHeader'>
+                        <h2>{Object.keys(workData)[2]}</h2>
+                        <p>{Object.values(workData)[2].location}</p>
+                    </div>
+                    <div className='jobBody'>
+                        <p>{Object.values(workData)[2].title}</p>
+                        <ol className='bullets'>
+                         {Object.values(workData)[2].content.map((i)=> <li key={i}>{i}</li>)}
                         </ol>
                     </div>
                 </VerticalTimelineElement>

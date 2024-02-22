@@ -26,7 +26,7 @@ export default function Experiences() {
                 <VerticalTimelineElement 
                     className='vertical-timeline-element--education' 
                     // contentStyle={{background: '#3c005a', colo: '#fff'}}
-                    date='2021-Current'
+                    date='2022-Current'
                     iconStyle={{background: '#3c005a', color: '#fff'}}
                     icon={<WorkIcon />}>
                     <div className='jobHeader'>

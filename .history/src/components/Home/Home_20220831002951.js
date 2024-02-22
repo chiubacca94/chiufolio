@@ -26,7 +26,6 @@ export default class Home extends Component {
                     <div className='certifications-images'>
                         <a href="https://www.credly.com/badges/32db247c-c9f6-49c8-9d4a-a45f2b1f4d6d/public_url" target="_blank"><img style={{ paddingRight: '30px' }} src="/comptia-security-ce-certification.png"></img></a>
                         <a href="https://www.credly.com/badges/ffa69574-4801-4b4b-ba7f-efbd9763b62d/public_url" target="_blank"><img src="/aws-certified-developer-associate.png"></img></a>
-                        <a href="https://www.credly.com/badges/e0f5126a-f6af-4e27-b2ee-e0b3fb5ca67c/public_url" target="_blank"><img src="/aws-certified-solutions-architect-associate.png"></img></a>
                     </div>
                     {/* <Button variant='contained' href="https://github.com/brittanychiucode/chiufolio/raw/master/public/BChiu_Resume.pdf" target="_blank" download>Download Resume</Button> */}
                 </section>

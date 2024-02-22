@@ -1,8 +1,22 @@
 {
+    "Capital One": { 
+        "title": "Senior Software Engineer",
+        "location": "McLean, VA",
+        "date": "2022-Current",
+        "content": 
+        [ 
+            "Added new functionality that pulled upcoming financial transactions between businesses, saved the data in a redux store, and then displayed the output on the front end UI using Angular",
+            "Increased third party integration capability by leading discussions with Melio to extract upcoming financial transactions and API Metadata",
+            "Ensured and met security standards of loan transactions by upgrading the SOAP requests to verify tokenization via Xpress ",
+            "Upgraded the SpringBoot application's auditlog package to send log data to enterprise streaming platforms to comply with company technology standards  ",
+            "Oversaw the transfer of CNAME ownership from enterprise service accounts to team accounts to fit scope of compliance and tracking"
+        ],
+        "techStack": ["Angular", "SpringBoot", "AWS", "Docker", "Jenkins" ,"git"]
+    },
     "CACI International": { 
         "title": "Software Engineer II",
         "location": "Sterling, VA",
-        "date": "2021-Current",
+        "date": "2021-2022",
         "content": 
         [ 
             "Appointed to be part of a tiger team for a technology stack refresh whose goal is to move from a monolithic code base to a Microservices architecture",
