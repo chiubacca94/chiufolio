@@ -46,6 +46,10 @@
     color: white;
   }
   
+  .resume-btn {
+    margin-top: 40px !important;
+  }
+
   .certifications {
     font-size: 20px;
     width: 100%;
