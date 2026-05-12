@@ -3,8 +3,6 @@ import Button from '@material-ui/core/Button'
 import Typewriter from 'typewriter-effect';
 import './Home.css';
 
-const RESUME_URL = 'https://brittanychiu-files.s3.us-east-1.amazonaws.com/Brittany_Chiu_Resume_050726.pdf';
-
 export default class Home extends Component {
     render() {
         return (
@@ -26,7 +24,7 @@ export default class Home extends Component {
                         <a href="https://www.credly.com/badges/8abeb2c1-c71d-4162-bccd-68fa304d1e05/public_url" target="_blank"><img src="/aws-certified-developer-associate.png"></img></a>
                         <a href="https://www.credly.com/badges/e0f5126a-f6af-4e27-b2ee-e0b3fb5ca67c/public_url" target="_blank"><img src="/aws-certified-solutions-architect-associate.png"></img></a>
                     </div>
-                    <Button className='resume-btn' variant='contained' href={RESUME_URL} target="_blank" rel="noreferrer" download>Download Resume</Button>
+                    <Button className='resume-btn' variant='contained' href="/assets/Brittany_Chiu_Resume_050726.pdf" target="_blank" rel="noreferrer">View Resume</Button>
                 </section>
             
                 <section className='skills'>
